@@ -1,0 +1,10 @@
+[
+    { status: 'fulfilled', value: 1 },
+    {
+      status: 'rejected',
+      reason: Error: Error!
+          at Timeout._onTimeout (d:\2022\Devs\books\모던 자바스크립트 Deep Dive\chap45\ex_45_37.js:4:29)
+          at listOnTimeout (node:internal/timers:559:17)
+          at processTimers (node:internal/timers:502:7)
+    }
+]
