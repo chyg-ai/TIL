@@ -4,3 +4,4 @@
 - [x] component, props, state
 - [x] event handling
 - [x] ref
+- [x] concat, map, filter
