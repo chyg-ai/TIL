@@ -7,3 +7,4 @@
 - [x] concat, map, filter
 - [x] Life Cycle Method
 - [x] hooks
+- [x] component styling

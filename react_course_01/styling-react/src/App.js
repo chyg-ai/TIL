@@ -1,9 +1,9 @@
 import React from "react";
-import SassComponent from "./SassComponent";
+import StyledComponents from "./StyledComponents";
 const App = () => {
   return (
     <div>
-      <SassComponent />
+      <StyledComponents />
     </div>
   );
 };
