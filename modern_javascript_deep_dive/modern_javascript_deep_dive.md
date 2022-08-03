@@ -1,5 +1,6 @@
 # Table of Content
 
-45. [x] Promise
-46. [x] Generator
-47. [x] Error Handling
+38. [x] Browser Rendering
+39. [x] Promise
+40. [x] Generator
+41. [x] Error Handling
