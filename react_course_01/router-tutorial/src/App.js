@@ -3,7 +3,8 @@ import { Link, Route, Routes } from "../node_modules/react-router-dom/index";
 
 import Home from "./Home";
 import About from "./About";
-import Profile from "./Profile";
+import Profiles from "./Profiles";
+import HistorySample from "./HistorySample";
 
 const App = () => {
   return (
@@ -16,13 +17,17 @@ const App = () => {
           <Link to="/about">소개</Link>
         </li>
         <li>
-          <Link to="/profile/velopert">velopert 프로필</Link>
+          <Link to="/profiles">프로필</Link>
+        </li>
+        <li>
+          <Link to="/history">History 예제</Link>
         </li>
       </ul>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/profile/:username" element={<Profile />} />
+        <Route path="/profiles" element={<Profiles />} />
+        <Route path="/history" element={<HistorySample />} />
       </Routes>
     </div>
   );
