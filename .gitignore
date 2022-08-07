@@ -3,3 +3,6 @@ nextjs_docs/from_react_to_nextjs/.next
 
 react_course_01/news-viewer/node_modules
 react_course_01/context-tutorial/node_modules
+react_course_01/vanilla-redux/node_modules
+react_course_01/vanilla-redux/.cache
+react_course_01/vanilla-redux/dist
