@@ -1,3 +1,5 @@
+getting_started_nodejs/node_project/node_modules
+
 nextjs_docs/from_react_to_nextjs/node_modules
 nextjs_docs/from_react_to_nextjs/.next
 
@@ -6,3 +8,5 @@ react_course_01/context-tutorial/node_modules
 react_course_01/vanilla-redux/node_modules
 react_course_01/vanilla-redux/.cache
 react_course_01/vanilla-redux/dist
+
+react_course_01/react-redux-tutorial/node_modules
