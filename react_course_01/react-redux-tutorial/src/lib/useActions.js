@@ -11,6 +11,6 @@ export function useActions(actions, deps) {
       }
       return bindActionCreators(actions, dispatch);
     },
-    deps ? [dispatch, ...deps] : deps,
+    deps ? [dispatch, ...deps] : [dispatch],
   );
 }
