@@ -15,7 +15,7 @@ export function call(api, method, request) {
   }
 
   return fetch(options.url, options).then((response) => {
-    response.json().then((json) => {
+    return response.json().then((json) => {
       if (!response.ok) {
         return Promise.reject(json);
       }
