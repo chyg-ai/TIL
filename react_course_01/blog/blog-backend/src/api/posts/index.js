@@ -1,6 +1,9 @@
 const Router = require('koa-router');
 const postsCtrl = require('./posts.ctrl');
+
 const posts = new Router();
+
+// 미들웨어 함수
 
 posts.get('/', postsCtrl.list);
 posts.post('/', postsCtrl.write);
