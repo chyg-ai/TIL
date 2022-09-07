@@ -13,7 +13,11 @@ react_course_01/react-redux-tutorial/node_modules
 
 react_course_01/splitting-sample/node_modules
 react_course_01/splitting-sample/build
+react_course_01/blog/blog-backend/node_modules
 
 react_docs/context/node_modules
 
 modern_javascript_deep_dive/chap44/json-server-exam/node_modules
+
+recoil-docs/recoil-practice/node_modules
+recoil-docs/recoil-tutorial/node_modules
