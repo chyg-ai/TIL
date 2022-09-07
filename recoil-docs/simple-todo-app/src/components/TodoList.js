@@ -7,7 +7,6 @@ import TodoListFilters from "./TodoListFilters";
 import TodoListStats from "./TodoListStats";
 
 const TodoList = () => {
-  // const todoList = useRecoilValue(todoListState);
   const todoList = useRecoilValue(filteredTodoListState);
 
   return (
