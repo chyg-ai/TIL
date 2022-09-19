@@ -2,6 +2,7 @@
 
 1. Tutorials
    - [API Routes](./nextjs/tutorial/6.%20API%20Routes/README.md)
+   - [Deploying Your Next.js App](./nextjs/tutorial/7_Deploying_Your_Nextjs_App/README.md)
 2. Documentation
    - [Pages](./nextjs/documentation/pages.md)
 3. Etc
