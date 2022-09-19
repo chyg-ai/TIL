@@ -79,8 +79,40 @@
 - `Create Pull Request`를 클릭하면 아래 이미지와 같이 `Preview URL`을 확인할 수 있습니다.
 - `Preview URL`을 클릭하면 변경된 내용을 확인할 수 있습니다.
 - 저는 `account` 페이지를 생성하고 배포된 `Next.js` 애플리케이션에서 `/account`로 접속해서 페이지를 확인할 수 있었습니다.
+- `Merge pull request`를 클릭하면 프로덕션 환경에서 변경된 내용이 반영됩니다.
 
 ![Preview_deployment_for_every_push_1](./imgs/Preview_deployment_for_every_push_1.png)
+
+# Develop, Preview, Ship
+
+- `Develop` : Next.js 애플리케이션을 개발합니다.
+- `Preview` : 브랜치를 생성해서 변경된 내용을 브랜치에 반영합니다. 앞서 새로운 Pull Request를 생성하면 Preview Deployment에서 변경된 내용을 확인할 수 있습니다.
+- `Ship` : Pull Request가 합병되면 프로덕션 환경에 반영됩니다.
+
+# Other Hosting Options
+
+- Next.js는 어떤 호스팅 제공자에게도 배포될 수 있습니다.
+- package.json 파일에 `build`와 `start` 스크립트를 포함해야 합니다.
+
+```
+// .next 디렉터리에 프로덕션 환경의 애플리케이션이 빌드됩니다.
+$ npm run build
+
+// Node.js 서버를 실행시키고 Static Generation, Server-side Rendering, API Routes를 제공합니다.
+$ npm run start
+```
+
+- `package.json` 파일의 `start` 스크립트에서 `port` 번호를 임의로 지정할 수 있습니다.
+
+```
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  }
+}
+```
 
 # Reference
 
