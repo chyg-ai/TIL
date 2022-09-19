@@ -21,3 +21,13 @@ modern_javascript_deep_dive/chap44/json-server-exam/node_modules
 
 recoil-docs/recoil-practice/node_modules
 recoil-docs/recoil-tutorial/node_modules
+
+# Docs
+docs/nextjs/tutorial/3_Assets_Metadata_CSS/nextjs-blog/node_modules
+docs/nextjs/tutorial/3_Assets_Metadata_CSS/nextjs-blog/.next
+docs/nextjs/tutorial/4_Pre-rendering_and_Data_Fetching/nextjs-blog/node_modules
+docs/nextjs/tutorial/4_Pre-rendering_and_Data_Fetching/nextjs-blog/.next
+docs/nextjs/tutorial/5_Dynamic_Routes/nextjs-blog/node_modules
+docs/nextjs/tutorial/5_Dynamic_Routes/nextjs-blog/.next
+docs/nextjs/tutorial/6_API_Routes/nextjs-blog/node_modules
+docs/nextjs/tutorial/6_API_Routes/nextjs-blog/.next
