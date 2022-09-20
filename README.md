@@ -9,3 +9,4 @@
 ## Docs
 
 1. [Next.js](./docs/nextjs.md)
+2. [MSW](./docs/msw.md)
