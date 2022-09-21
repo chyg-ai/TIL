@@ -7,7 +7,7 @@
      - [Mocking REST API](./msw/mocking_rest_api.md)
    - [Integrate](https://mswjs.io/docs/getting-started/integrate)
      - Browser
-     - Node
+     - [Node](./msw/node.md)
 
 # Reference
 
