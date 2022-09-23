@@ -3,12 +3,12 @@ const get = (url) => {
   xhr.open("GET", url);
   xhr.send();
 
+  // 비동기 코드
   xhr.onload = () => {
     if (xhr.status === 200) {
       return JSON.parse(xhr.response);
     }
-
-    console.log(`${xhr.status} ${xhr.statusText}`);
+    console.error(`${xhr.status} ${xhr.statusText}`);
   };
 };
 

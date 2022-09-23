@@ -12,4 +12,4 @@ const get = (url, successCallback, failureCallback) => {
   };
 };
 
-get("https://jsonplaceholder.typicode.com/posts/1", console.log, console.error);
+get("https://jsonplaceholder.typicode.com/posts/1", console.log, console.log);

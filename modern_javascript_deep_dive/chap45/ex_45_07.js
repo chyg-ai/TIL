@@ -1,6 +1,6 @@
 const get = (url, callback) => {
   const xhr = new XMLHttpRequest();
-  xhr.open("GET", null);
+  xhr.open("GET", url);
   xhr.send();
 
   xhr.onload = () => {

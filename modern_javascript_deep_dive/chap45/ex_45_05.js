@@ -14,5 +14,5 @@ const get = (url) => {
   };
 };
 
-get("https://jsonplaceholder.typicode.com/posts/1");
+get("https://jsonpladeholder.typicode.com/posts/1");
 console.log(todos);
