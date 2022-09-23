@@ -13,3 +13,4 @@
    - [next/image](./nextjs/api_reference/next_image.md)
 4. Etc
    - [How to make Next.js App Progressive Web App (PWA)](./nextjs/nextjs_pwa_build.md)
+   - [React Hydration Error](./nextjs/react_hydration_error.md)
