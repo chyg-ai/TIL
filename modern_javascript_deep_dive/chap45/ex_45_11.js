@@ -14,4 +14,4 @@ const promiseGet = (url) => {
   });
 };
 
-promiseGet("https://jsonplaceholder.typicode.com/posts/1");
+promiseGet("https://jsonpladeholder.typicode.com/posts/1");
