@@ -11,6 +11,7 @@
      - [Dynamic Routes](./nextjs/documentation/routing/Dynamic_routes.md)
 3. API Reference
    - [next/image](./nextjs/api_reference/next_image.md)
+   - [next/router](./nextjs/api_reference/next_router.md)
 4. Etc
    - [How to make Next.js App Progressive Web App (PWA)](./nextjs/nextjs_pwa_build.md)
    - [React Hydration Error](./nextjs/react_hydration_error.md)
