@@ -7,6 +7,7 @@
    - **Basic Features**
      - [Pages](./nextjs/documentation/pages.md)
      - [Image Optimization](./nextjs/documentation/basic_features/image_optimization.md)
+     - [Fast Refresh](./nextjs/documentation/fast_refresh.md)
    - **Routing**
      - [Dynamic Routes](./nextjs/documentation/routing/Dynamic_routes.md)
 3. API Reference
