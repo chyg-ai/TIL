@@ -1,8 +1,11 @@
-package project.main;
+package project.tests;
 
 import java.util.Scanner;
 
-public class Main {
+// https://www.acmicpc.net/problem/11659
+// 오답 이유: 시간 초과
+
+public class test1546one {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -26,4 +29,5 @@ public class Main {
 			System.out.println(sum);
 		}
 	}
+
 }

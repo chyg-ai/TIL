@@ -1,8 +1,9 @@
-package project.main;
+package project.tests;
 
 import java.util.Scanner;
 
-public class Main {
+//https://www.acmicpc.net/problem/11659
+public class test11659 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -10,7 +11,6 @@ public class Main {
 		N=sc.nextInt();
 		M=sc.nextInt();
 		
-		// 시간 복잡도: N^2 * M
 		int[] arr=new int[N];
 		for(int i=0; i<N; i++) {
 			arr[i]=sc.nextInt();
