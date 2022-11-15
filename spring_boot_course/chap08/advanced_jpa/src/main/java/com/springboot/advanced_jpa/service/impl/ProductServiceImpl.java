@@ -1,10 +1,10 @@
 package com.springboot.advanced_jpa.service.impl;
 
-import com.springboot.jpa.data.dao.ProductDAO;
-import com.springboot.jpa.data.dto.ProductDto;
-import com.springboot.jpa.data.dto.ProductResponseDto;
-import com.springboot.jpa.data.entity.Product;
-import com.springboot.jpa.service.ProductService;
+import com.springboot.advanced_jpa.data.dao.ProductDAO;
+import com.springboot.advanced_jpa.data.dto.ProductDto;
+import com.springboot.advanced_jpa.data.dto.ProductResponseDto;
+import com.springboot.advanced_jpa.data.entity.Product;
+import com.springboot.advanced_jpa.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
